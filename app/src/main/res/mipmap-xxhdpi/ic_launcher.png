@@ -1,0 +1,165 @@
+{
+  "$schema": "http://json.schemastore.org/schema-catalog",
+
+  "version": 1.0,
+  "schemas": [
+    {
+      "name": ".angular-cli.json",
+      "description": "Angular CLI configuration file",
+      "fileMatch": [ ".angular-cli.json", "angular-cli.json" ],
+      "url": "https://raw.githubusercontent.com/angular/angular-cli/master/packages/angular/cli/lib/config/schema.json"
+    },
+    {
+      "name": "Ansible",
+      "description": "Ansible task files",
+      "url": "http://json.schemastore.org/ansible-stable-2.5",
+      "fileMatch": [ "tasks/*.yml", "tasks/*.yaml" ],
+      "versions": {
+        "2.0": "http://json.schemastore.org/ansible-stable-2.0",
+        "2.1": "http://json.schemastore.org/ansible-stable-2.1",
+        "2.2": "http://json.schemastore.org/ansible-stable-2.2",
+        "2.3": "http://json.schemastore.org/ansible-stable-2.3",
+        "2.4": "http://json.schemastore.org/ansible-stable-2.4",
+        "2.5": "http://json.schemastore.org/ansible-stable-2.5",
+        "2.6": "http://json.schemastore.org/ansible-stable-2.6",
+        "2.7": "http://json.schemastore.org/ansible-stable-2.7"
+      }
+    },
+    {
+      "name": "apple-app-site-association",
+      "description": "Apple Universal Link, App Site Association",
+      "fileMatch": [ "apple-app-site-association" ],
+      "url": "http://json.schemastore.org/apple-app-site-association"
+    },
+    {
+      "name": "appsscript.json",
+      "description": "Google Apps Script manifest file",
+      "fileMatch": [ "appsscript.json" ],
+      "url": "http://json.schemastore.org/appsscript"
+    },
+    {
+      "name": "appsettings.json",
+      "description": "ASP.NET Core's configuration file",
+      "fileMatch": [ "appsettings.json", "appsettings.*.json" ],
+      "url": "http://json.schemastore.org/appsettings"
+    },
+    {
+      "name": "appveyor.yml",
+      "description": "AppVeyor CI configuration file",
+      "fileMatch": [ "appveyor.yml" ],
+      "url": "http://json.schemastore.org/appveyor"
+    },
+    {
+      "name": "Avro Avsc",
+      "description": "Avro Schema Avsc file",
+      "fileMatch": [ ".avsc" ],
+      "url": "http://json.schemastore.org/avro-avsc"
+    },
+    {
+      "name": "Azure IoT Edge deployment",
+      "description": "Azure IoT Edge deployment schema",
+      "url": "http://json.schemastore.org/azure-iot-edge-deployment-2.0",
+      "versions": {
+        "1.0": "http://json.schemastore.org/azure-iot-edge-deployment-1.0",
+        "1.1": "http://json.schemastore.org/azure-iot-edge-deployment-2.0"
+      }
+    },
+    {
+      "name": "Azure IoT Edge deployment template",
+      "description": "Azure IoT Edge deployment template schema",
+      "fileMatch": [ "deployment.template.json", "deployment.*.template.json" ],
+      "url": "http://json.schemastore.org/azure-iot-edge-deployment-template-2.0",
+      "versions": {
+        "1.0": "http://json.schemastore.org/azure-iot-edge-deployment-template-1.0",
+        "1.1": "http://json.schemastore.org/azure-iot-edge-deployment-template-2.0"
+      }
+    },
+    {
+      "name": "Foxx Manifest",
+      "description": "ArangoDB Foxx service manifest file",
+      "fileMatch": [ "manifest.json" ],
+      "url": "http://json.schemastore.org/foxx-manifest"
+    },
+    {
+      "name": ".asmdef",
+      "description": "Unity 3D assembly definition file",
+      "fileMatch": [ "*.asmdef" ],
+      "url": "http://json.schemastore.org/asmdef"
+    },
+    {
+      "name": "babelrc.json",
+      "description": "Babel configuration file",
+      "fileMatch": [ ".babelrc" ],
+      "url": "http://json.schemastore.org/babelrc"
+    },
+    {
+      "name": ".backportrc.json",
+      "description": "Backport configuration file",
+      "fileMatch": [ ".backportrc.json" ],
+      "url": "http://json.schemastore.org/backportrc"
+    },
+    {
+      "name": "batect.yml",
+      "description": "batect configuration file",
+      "fileMatch": [ "batect.yml" ],
+      "url": "https://batect.charleskorn.com/configSchema.json"
+    },
+    {
+      "name": ".bootstraprc",
+      "description": "Webpack bootstrap-loader configuration file",
+      "fileMatch": [ ".bootstraprc" ],
+      "url": "http://json.schemastore.org/bootstraprc"
+    },
+    {
+      "name": "bower.json",
+      "description": "Bower package description file",
+      "fileMatch": [ "bower.json", ".bower.json" ],
+      "url": "http://json.schemastore.org/bower"
+    },
+    {
+      "name": ".bowerrc",
+      "description": "Bower configuration file",
+      "fileMatch": [ ".bowerrc" ],
+      "url": "http://json.schemastore.org/bowerrc"
+    },
+    {
+      "name": "behat.yml",
+      "description": "Behat configuration file",
+      "fileMatch": [ "behat.yml", "*.behat.yml" ],
+      "url": "http://json.schemastore.org/behat"
+    },
+    {
+      "name": "bozr.suite.json",
+      "description": "Bozr test suite file",
+      "fileMatch": [ ".suite.json", ".xsuite.json" ],
+      "url": "http://json.schemastore.org/bozr"
+    },
+    {
+      "name": "Bukkit plugin.yml",
+      "description": "Schema for Minecraft Bukkit plugin description files",
+      "fileMatch": [ "plugin.yml" ],
+      "url": "http://json.schemastore.org/bukkit-plugin"
+    },
+    {
+      "name": "Buildkite",
+      "description": "Schema for Buildkite pipeline.yml files",
+      "fileMatch": [ "buildkite.yml", "buildkite.yaml", "buildkite.json", "buildkite.*.yml", "buildkite.*.yaml", "buildkite.*.json", ".buildkite/pipeline.yml", ".buildkite/pipeline.yaml", ".buildkite/pipeline.json", ".buildkite/pipeline.*.yml", ".buildkite/pipeline.*.yaml", ".buildkite/pipeline.*.json" ],
+      "url": "https://raw.githubusercontent.com/buildkite/pipeline-schema/master/schema.json"
+    },
+    {
+      "name": ".build.yml",
+      "description": "Sourcehut Build Manifest",
+      "fileMatch": [ ".build.yml" ],
+      "url": "http://json.schemastore.org/sourcehut-build"
+    },
+    {
+      "name": "bundleconfig.json",
+      "description": "Schema for bundleconfig.json files",
+      "fileMatch": [ "bundleconfig.json" ],
+      "url": "http://json.schemastore.org/bundleconfig"
+    },
+    {
+      "name": "BungeeCord plugin.yml",
+      "description": "Schema for BungeeCord plugin description files",
+      "fileMatch": [ "plugin.yml", "bungee.yml" ],
+      "url": "htt
